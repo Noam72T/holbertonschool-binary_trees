@@ -1,10 +1,10 @@
 #include "binary_trees.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- * binary_tree_nodes - Function tree nodes
- * @tree: Pointer to the root node
+ * binary_tree_nodes - Counts nodes with at least one child in a binary tree
+ * @tree: Pointer to the root node of the tree
+ *
+ * Return: number of nodes (success), or 0 (fail)
  */
 
 size_t binary_tree_nodes(const binary_tree_t *tree)
